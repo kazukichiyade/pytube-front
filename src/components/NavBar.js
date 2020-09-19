@@ -18,6 +18,7 @@ const NavBar = (props) => {
   const classes = useStyles();
 
   const Logout = () => {
+    // ログアウト時にjwtトークンを削除し、ログインページへ移動
     props.cookies.remove("jwt-token");
     window.location.href = "/";
   };
