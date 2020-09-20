@@ -23,7 +23,7 @@ const VideoItem = ({ video }) => {
   const { setSelectedVideo } = useContext(ApiContext);
 
   return (
-    // cardがクリックされるとビデオを上書き
+    // cardがクリックされるとsetSelectedVideoに状態を保存
     <Card className={classes.card} onClick={() => setSelectedVideo(video)}>
       <CardActionArea>
         <CardMedia
