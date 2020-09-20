@@ -77,3 +77,13 @@
   outline: none;
   cursor: pointer;
 }
+
+.video-list {
+  background-color: #292f38;
+  height: 100vh;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  overflow-y: auto;
+}
